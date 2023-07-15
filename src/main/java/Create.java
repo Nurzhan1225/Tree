@@ -1,8 +1,5 @@
 import jakarta.persistence.*;
 import org.example.entity.Tree;
-
-import java.util.List;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Create {

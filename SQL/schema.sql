@@ -19,7 +19,7 @@
 -- - - С микро
 -- - - Без микро
 -- - Колонки
---drop table tree;
+drop table tree;
 
 create table tree (
     id serial8,

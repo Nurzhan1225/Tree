@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76700d7f-affa-41da-b621-dcddedd80587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TreeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TreeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Create.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +69,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\tree\SQL" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -81,13 +79,6 @@
   <component name="RunManager" selected="Application.TreeApp">
     <configuration name="Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Create" />
-      <module name="tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Delete" />
       <module name="tree" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,13 +105,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="schema.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/SQL/schema.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TreeApp" />
-        <item itemvalue="Application.test1" />
+        <item itemvalue="Database Script.schema.sql" />
         <item itemvalue="Application.Move" />
+        <item itemvalue="Application.test1" />
         <item itemvalue="Application.Create" />
-        <item itemvalue="Application.Delete" />
       </list>
     </recent_temporary>
   </component>
@@ -145,10 +141,24 @@
       <workItem from="1685012146357" duration="15847000" />
       <workItem from="1686412382131" duration="7599000" />
       <workItem from="1686826958595" duration="331000" />
+      <workItem from="1688795110107" duration="4804000" />
+      <workItem from="1689245422516" duration="1639000" />
+      <workItem from="1689256930755" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
