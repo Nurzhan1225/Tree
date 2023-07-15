@@ -4,34 +4,43 @@ import org.example.entity.Tree;
 import java.util.Scanner;
 
 public class TreeApplication {
+    private static EntityManagerFactory factory = Persistence.createEntityManagerFactory("default");
+    private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Выберите действие: ");
-        Integer CSD = Integer.parseInt(scanner.nextLine());
 
-        if (CSD == 1){
-            create();
-        }
-        else if (CSD == 2){
-            set();
-        }
-        else if (CSD == 3){
-            delete();
-        }
-        else {
-            System.out.println("ошибка");
+        while (true) {
+            System.out.println("- Создание товара [1]\n- Редактирование товара [2]" +
+                    "\n- Удаление товара [3]\n- Завершить процесс [4]\nВыберите действие: ");
+            Integer CSD = Integer.parseInt(scanner.nextLine());
+            while (CSD != 4) {
+
+                if (CSD == 1) {
+                    create();
+                } else if (CSD == 2) {
+                    set();
+                } else if (CSD == 3) {
+                    delete();
+                } else {
+                    System.out.println("ошибка");
+                }
+                break;
+            }
+            if (CSD == 4){
+                System.out.println("Процесс завершен");
+                break;
+            }
         }
     }
     private static void create() {
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("default");
+
         EntityManager manager = factory.createEntityManager();
         try {
             manager.getTransaction().begin();
-            Scanner sc = new Scanner(System.in);
+
             System.out.print("Введите id родительской категории: ");
-            Integer id = Integer.parseInt(sc.next());
+            Integer id = Integer.parseInt(scanner.next());
             System.out.print("Введите название категории: ");
-            String newName = sc.next();
+            String newName = scanner.next();
 
             if(id == 0 ){
                 TypedQuery<Integer> typedQuery = manager.createQuery(
@@ -77,7 +86,6 @@ public class TreeApplication {
     }
 
     private static void set(){
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("default");
         EntityManager manager = factory.createEntityManager();
         try {
             manager.getTransaction().begin();
@@ -86,11 +94,11 @@ public class TreeApplication {
             Integer id1 = null, id2 = null;
 
             while (bol) {
-                Scanner sc = new Scanner(System.in);
+
                 System.out.print("Введите id родительской перемещаюмой категории: ");
-                id1 = Integer.parseInt(sc.next());
+                id1 = Integer.parseInt(scanner.next());
                 System.out.print("Введите id новой родительской категории: ");
-                id2 = Integer.parseInt(sc.next());
+                id2 = Integer.parseInt(scanner.next());
 
                 Tree tree1 = manager.find(Tree.class, id1);
                 int r1 = tree1.getRight_key();
@@ -190,13 +198,12 @@ public class TreeApplication {
     }
 
     private static void delete() {
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("default");
+
         EntityManager manager = factory.createEntityManager();
         try {
             manager.getTransaction().begin();
-            Scanner sc = new Scanner(System.in);
             System.out.print("Введите id родительской категории: ");
-            Integer id = Integer.parseInt(sc.next());
+            Integer id = Integer.parseInt(scanner.next());
 
             Tree tree = manager.find(Tree.class, id);
 

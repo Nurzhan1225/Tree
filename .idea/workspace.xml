@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76700d7f-affa-41da-b621-dcddedd80587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TreeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b2a61020-17fd-425c-8060-2afd0a1caff5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TreeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TreeApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +137,7 @@
       <workItem from="1686826958595" duration="331000" />
       <workItem from="1688795110107" duration="4804000" />
       <workItem from="1689245422516" duration="1639000" />
-      <workItem from="1689256930755" duration="458000" />
+      <workItem from="1689256930755" duration="1675000" />
     </task>
     <servers />
   </component>
